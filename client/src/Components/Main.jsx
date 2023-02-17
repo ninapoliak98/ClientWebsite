@@ -18,11 +18,11 @@ export default function Main() {
                     <div className="flex items-center">
                     <h1 className="text-left text-4xl font-bold text-gray-800">Alta</h1>
                     <ul className="flex flex-row gap-8 mt-2 px-6 py-3 text-left text-s font-medium text-gray-700 tracking-wider">
-                        <li><Link to="/" className="selected">Home</Link></li>
-                        <li><Link to="/services" >Services</Link></li>
-                        <li><Link to="/insurances">Insurances</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                        <li><Link to="/about">About</Link></li>
+                        <li className="hover:underline "><Link to="/" className="selected">Home</Link></li>
+                        <li className="hover:underline"><Link to="/services" >Services</Link></li>
+                        <li className="hover:underline"><Link to="/insurances">Insurances</Link></li>
+                        <li className="hover:underline"><Link to="/contact">Contact</Link></li>
+                        <li className="hover:underline"><Link to="/about">About</Link></li>
                     </ul>
                     </div>
                     <div className="flex w-full items-center mt-2 px-6 py-3 w-full justify-end">
