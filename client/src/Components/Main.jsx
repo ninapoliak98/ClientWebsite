@@ -18,10 +18,10 @@ export default function Main() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <HashRouter>
-            <div className="mx-20 max-w-8xl sm:px-2 lg:px-8 ">
-                <div className="flex justify-between mx-auto">
+            <div className="mx-20 max-w-8xl sm:px-2 lg:px-8 h-screen ">
+                <div className="flex justify-between mx-auto sticky top-0 z-50 bg-white">
                     <div className="flex items-center">
-                    <h1 className="text-left text-4xl font-bold text-gray-800">Alta</h1>
+                    <h1 className="text-left text-4xl font-bold text-gray-800 ">Alta</h1>
                     <ul className="hidden gap-8 mt-2 px-6 py-3 text-left text-s font-medium text-gray-700 tracking-wider md:flex">
                         {links.map((link) =>
                             <li className="hover:underline py-6"><Link to={link.link} className="selected">{link.name}</Link></li>
@@ -33,7 +33,7 @@ export default function Main() {
                         <button className=" w-fit rounded-md border border-transparent bg-[#405cf5] py-2 px-4 text-sm font-medium text-white hover:border-b-2 hover:border-black ">Contact</button>
                     </div>
                     {/*Mobile menu*/}
-                    <div className="flex lg:hidden md:hidden mt-5 hover:cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+                    <div className="flex lg:hidden md:hidden mt-3 hover:cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
                         <div className="space-y-2">
                             <span className="block w-8 h-0.5 bg-gray-600"></span>
                             <span className="block w-8 h-0.5 bg-gray-600"></span>
