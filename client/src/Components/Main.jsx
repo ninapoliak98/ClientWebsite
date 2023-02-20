@@ -25,13 +25,17 @@ export default function Main() {
                     <h1 className="text-left text-4xl font-bold text-gray-800 ">Alta</h1>
                     <ul className="hidden gap-8 mt-2 px-6 py-3 text-left text-s font-medium text-gray-700 tracking-wider md:flex">
                         {links.map((link) =>
-                            <li className={`hover:underline py-6 ${active ? 'text-indigo-600' : 'text-gray-700'}`} onClick={() => setActive(!active)}><Link to={link.link} className="selected">{link.name}</Link></li>
+                            <li className={`hover:underline py-6`}><Link to={link.link} className="selected">{link.name}</Link></li>
                         )}
                     </ul>
                     </div>
                     <div className="w-full items-center mt-2 px-6 py-3 w-full justify-end hidden md:flex">
-                        <p className="text-left text-s font-medium text-gray-700 tracking-wider mr-4 truncate md:hidden lg:block sm:hidden hidden hover:cursor-pointer">Call 1-718-897-2582</p>
-                        <button className=" w-fit rounded-md border border-transparent bg-[#405cf5] py-2 px-4 text-sm font-medium text-white hover:border-b-2 hover:border-black "><Link to="/contact">Contact</Link></button>
+                        <p className="text-left text-s font-medium text-gray-700 tracking-wider
+                        mr-4 truncate md:hidden lg:block sm:hidden hidden hover:cursor-pointer">Call 1-718-897-2582</p>
+                        <button className=" w-fit rounded-md border border-transparent bg-[#405cf5] py-2 px-4
+                        text-sm font-medium text-white hover:border-b-2 hover:border-black ">
+                            <Link to="/contact">Contact</Link>
+                        </button>
                     </div>
                     {/*Mobile menu*/}
                     <div className="flex lg:hidden md:hidden mt-3 hover:cursor-pointer" onClick={() => setIsOpen(!isOpen)}>

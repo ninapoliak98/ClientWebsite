@@ -13,7 +13,8 @@ function Home(props) {
                     </Link>
                 </div>
                 <div className="w-full">
-                    <img src="https://images.pexels.com/photos/1274799/pexels-photo-1274799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="md:w-[800px] md:h-[600px]"/>
+                    <img src="https://images.pexels.com/photos/1274799/pexels-photo-1274799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                         alt="" className="md:w-[800px] md:h-[600px] lg:w-[800px] lg:h-[700px] "/>
                 </div>
             </div>
     );

@@ -19,9 +19,9 @@ function Contact(props) {
 
     }
     return (
-        <div className="container flex justify-center mx-auto">
+        <div className="container flex justify-center mx-auto p-10">
             <div className="flex flex-col">
-            <h1 className="text-center md:text-4xl font-bold text-gray-800">Contact Information</h1>
+            <h1 className="text-center md:text-4xl font-bold text-gray-800 p-5">Contact Information</h1>
         <div className="grid gap-14 mt-10 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1">
             {/*Map with office address*/}
             <div className="w-full mr-10">
