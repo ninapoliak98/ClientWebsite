@@ -6,14 +6,14 @@ function Services(props) {
 
     return (
         <div className="container mx-auto ">
-            <div className="p-5">
+            <div className="p-5 w-full">
                 <p className="text-center text-s font-medium text-gray-500 tracking-wide uppercase">we care for your safety, comfort, and transportation</p>
                 <h1 className="text-center text-4xl font-bold text-gray-700 uppercase tracking-wider p-3">Our Services</h1>
                 <p className="text-center text-s font-medium text-gray-500  tracking-tighter">we are on a mission to offer the best transportation experience.</p>
                 <p className="text-center text-s font-medium text-gray-500  tracking-tighter">We will get you from your destination and home in comfort</p>
             </div>
                 <ul className="text-gray-600 grid gap-4 text-center lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 h-full">
-                    <div className="relative">
+                    <div className="relative hover:scale-105">
                         <img src="https://images.pexels.com/photos/4064229/pexels-photo-4064229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                              className="md:mt-4 sm:mt-10 mx-auto w-[450px] h-[500px] rounded drop-shadow-lg"/>
                         <li className="bg-white rounded absolute w-full opacity-95
@@ -23,8 +23,8 @@ function Services(props) {
                                 and clients with disabling physical conditions who are unable to use a taxi, livery, a private vehicle or public transportation.</p>
                         </li>
                     </div>
-                    <div className="relative">
-                        <img src="https://images.pexels.com/photos/2346914/pexels-photo-2346914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    <div className="relative  hover:scale-105">
+                        <img src="https://images.pexels.com/photos/12168532/pexels-photo-12168532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                              className="md:mt-4 sm:mt-10 mx-auto w-[450px] h-[500px] rounded drop-shadow-lg"/>
                         <li className="bg-white border border-2 rounded absolute w-full opacity-95 left-0 top-2/3
                                         h-52 flex flex-col justify-center shadow-slate-700 shadow-lg ">
@@ -34,8 +34,8 @@ function Services(props) {
                             </p>
                         </li>
                     </div>
-                    <div className="relative">
-                        <img src="https://images.pexels.com/photos/8376287/pexels-photo-8376287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""
+                    <div className="relative  hover:scale-105">
+                        <img src="https://images.pexels.com/photos/15452131/pexels-photo-15452131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""
                              className="md:mt-4 sm:mt-10 mx-auto w-[450px] h-[500px] rounded  drop-shadow-lg"/>
                         <li className="bg-white rounded absolute w-full opacity-95 left-0 top-2/3 h-52
                                         flex flex-col justify-center shadow-slate-700 shadow-lg">
